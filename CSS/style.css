@@ -1,0 +1,81 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e1f5e2;
+    color: #3b733f;
+}
+
+/* Header Styling */
+header {
+    background-color:  #3b733f;
+    color: #b8dcba;
+    padding: 1rem 0;
+    text-align: right;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: right;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+    background-image: none;
+}
+
+header nav ul li a {
+    color: #b8dcba;
+    text-decoration: none;
+    font-weight: bold;
+    background-image: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styling */
+main {
+    padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+    color: #3b733f;
+}
+
+.Container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #b8dcba;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* List Styling */
+ul {
+    list-style: none;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+ul li {
+    padding-left: 2rem;
+    background-image: url('../images/vinyl.png');
+    background-size: 16px 16px; /* Adjust the size of the image */
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+
+/* Footer or Additional Styling */
+p {
+    margin: 1rem 0;
+    line-height: 1.8;
+}
